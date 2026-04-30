@@ -1,31 +1,24 @@
-
-
-#Chewbacca: The Force needs coordinates.
-#You need this first in order to see if you can authenticate to GCP
-
-#You need to change Project, Region, and Creds
-
 terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "~> 5.0" 
+      version = "~> 5.0"
+    }
+
+    local = {
+      source  = "hashicorp/local"
+      version = "~> 2.0"
     }
   }
 }
 
+# 👇 OUTSIDE terraform block
 provider "google" {
   project = "cyberproject-490100"
   region  = "us-central1"
 }
 
-
-# resource "null_resource" "check_ansible" {
-#   triggers = {
-#     always_run = timestamp()
-#   }
-# 
-#   provisioner "local-exec" {
-#     command = "ansible --version"
-#   }
-# }
+resource "local_file" "favorite_food" {
+  filename = "${path.module}/favorite_food.txt"
+  content  = "My favorite food is pizza"
+}
