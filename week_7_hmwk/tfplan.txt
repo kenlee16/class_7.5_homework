@@ -1,0 +1,21 @@
+[0m[1mgoogle_service_account.kubernetes: Refreshing state... [id=projects/cyberproject-490100/serviceAccounts/kubernetes@cyberproject-490100.iam.gserviceaccount.com][0m
+[0m[1mgoogle_project_service.compute: Refreshing state... [id=cyberproject-490100/compute.googleapis.com][0m
+[0m[1mgoogle_project_service.container: Refreshing state... [id=cyberproject-490100/container.googleapis.com][0m
+[0m[1mgoogle_compute_disk.grafana_disk: Refreshing state... [id=projects/cyberproject-490100/zones/us-central1-a/disks/grafana-disk][0m
+[0m[1mgoogle_compute_network.main: Refreshing state... [id=projects/cyberproject-490100/global/networks/main][0m
+[0m[1mgoogle_compute_address.nat: Refreshing state... [id=projects/cyberproject-490100/regions/us-central1/addresses/nat][0m
+[0m[1mgoogle_compute_router.router: Refreshing state... [id=projects/cyberproject-490100/regions/us-central1/routers/router][0m
+[0m[1mgoogle_compute_subnetwork.private: Refreshing state... [id=projects/cyberproject-490100/regions/us-central1/subnetworks/private-subnet][0m
+[0m[1mgoogle_compute_firewall.allow_http: Refreshing state... [id=projects/cyberproject-490100/global/firewalls/allow-http][0m
+[0m[1mgoogle_compute_firewall.allow_ssh: Refreshing state... [id=projects/cyberproject-490100/global/firewalls/allow-ssh][0m
+[0m[1mgoogle_compute_firewall.allow_https: Refreshing state... [id=projects/cyberproject-490100/global/firewalls/allow-https][0m
+[0m[1mgoogle_compute_router_nat.nat: Refreshing state... [id=cyberproject-490100/us-central1/router/nat][0m
+[0m[1mgoogle_compute_instance.vm: Refreshing state... [id=projects/cyberproject-490100/zones/us-central1-a/instances/lab-vm][0m
+[0m[1mgoogle_container_cluster.primary: Refreshing state... [id=projects/cyberproject-490100/locations/us-central1-a/clusters/primary][0m
+[0m[1mgoogle_container_node_pool.general: Refreshing state... [id=projects/cyberproject-490100/locations/us-central1-a/clusters/primary/nodePools/general][0m
+[0m[1mgoogle_container_node_pool.spot: Refreshing state... [id=projects/cyberproject-490100/locations/us-central1-a/clusters/primary/nodePools/spot][0m
+
+[0m[1m[32mNo changes.[0m[1m Your infrastructure matches the configuration.[0m
+
+[0mTerraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
